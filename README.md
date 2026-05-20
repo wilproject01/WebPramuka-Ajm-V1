@@ -14,12 +14,6 @@
 
 **OFFICIAL WEBSITE PRAMUKA AJM** Bukan sekadar pusat profil biasa. Sistem ini dirancang untuk memudahkan para pengurus ambalan AJM saat penerimaan anggota baru yang biasanya pada MPLS, selain itu web ini juga bisa sebagai media untuk menunjukan kegiatan yang kita lakukan kepada calon calon anggota baru.
 **"Cosmic Deep Blue"** yang kokoh, tajam, dan elegan—merefleksikan keteguhan perjuangan, persaudaraan tanpa batas di alam semesta, serta disiplin tinggi gerakan Pramuka. 
-
-Setiap detail dibalut dengan visual modern:
-*   **Aesthetic Typography**: Memadukan font display kontemporer dan sistem spasi yang lega guna menghadirkan kenyamanan baca maksimal (*readability score* tinggi).
-*   **Fluid Motion Elements**: Interaksi transisi navigasi yang responsif bertenaga `motion` untuk melahirkan sentuhan hidup di setiap ketukan pengguna.
-*   **Bento-Grid Architecture**: Eksplorasi visual modern untuk mengemas aneka ragam pengurus pengurus struktural ambalan.
-
 ---
 
 ## 🛠️ Fitur-Fitur Unggulan
