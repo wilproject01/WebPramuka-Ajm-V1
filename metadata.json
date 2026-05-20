@@ -1,0 +1,6 @@
+{
+  "name": "Pramuka Digital",
+  "description": "Platform profil organisasi pramuka interaktif dengan sistem pendaftaran anggota online dan dashboard manajemen konten.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

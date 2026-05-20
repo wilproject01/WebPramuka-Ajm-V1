@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Member": {
+      "title": "Member",
+      "description": "Active scout member",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "division": { "type": "string" },
+        "role": { "type": "string" },
+        "photoUrl": { "type": "string" },
+        "bio": { "type": "string" },
+        "joinedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "division"]
+    },
+    "Registration": {
+      "title": "Registration",
+      "description": "New member application",
+      "type": "object",
+      "properties": {
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "school": { "type": "string" },
+        "motivation": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["fullName", "email", "phone"]
+    },
+    "Content": {
+      "title": "Content",
+      "description": "Website content management",
+      "type": "object",
+      "properties": {
+        "key": { "type": "string" },
+        "value": { "type": "object" }
+      },
+      "required": ["key", "value"]
+    },
+    "Setting": {
+      "title": "Application Setting",
+      "description": "General application settings",
+      "type": "object",
+      "properties": {
+        "key": { "type": "string" },
+        "value": { "type": "string" }
+      },
+      "required": ["key", "value"]
+    },
+    "StructureDivision": {
+      "title": "Structure Division",
+      "description": "A division in the organization structure",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "icon": { "type": "string" },
+        "order": { "type": "number" }
+      },
+      "required": ["name", "order"]
+    },
+    "StructureMember": {
+      "title": "Structure Member",
+      "description": "A member within a division",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "photoUrl": { "type": "string" },
+        "divisionId": { "type": "string" },
+        "order": { "type": "number" }
+      },
+      "required": ["name", "role", "divisionId", "order"]
+    }
+  },
+  "firestore": {
+    "members": {
+      "schema": "Member",
+      "description": "Official members of the scout organization"
+    },
+    "structure_divisions": {
+      "schema": "StructureDivision",
+      "description": "Divisions for the organization chart"
+    },
+    "structure_members": {
+      "schema": "StructureMember",
+      "description": "Members assigned to organization divisions"
+    },
+    "registrations": {
+      "schema": "Registration",
+      "description": "Applications for new members"
+    },
+    "content": {
+      "schema": "Content",
+      "description": "CMS data for banners, vision, mission, and news"
+    }
+  }
+}
