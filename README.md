@@ -1,3 +1,4 @@
+<img width="1365" height="561" alt="webwilden_editstruktur" src="https://github.com/user-attachments/assets/fdeb16a3-54b3-4859-b88c-7010ceeb63c6" />
 # ⚜️ OFFICIAL WEBSITE PRAMUKA AJM SMKN 2 GARUT
 
 [![Pramuka Digital](https://img.shields.io/badge/Pramuka-Digital%20Platform-blue?style=for-the-badge&logo=pramuka&logoColor=white)](https://ai.studio/build)
@@ -12,6 +13,7 @@
 
 <img width="1358" height="611" alt="Screenshot_2026-06-16_12-09-04" src="https://github.com/user-attachments/assets/ef20df4b-eb29-4922-acf1-62b11804fe5e" />
 
+<img width="1365" height="561" alt="webwilden_editstruktur" src="https://github.com/user-attachments/assets/a92360fd-859f-41b2-97f1-4c31657b6797" />
 
 
 
