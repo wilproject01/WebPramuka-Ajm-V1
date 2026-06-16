@@ -10,6 +10,12 @@
 
 ---
 
+<img width="1358" height="611" alt="Screenshot_2026-06-16_12-09-04" src="https://github.com/user-attachments/assets/ef20df4b-eb29-4922-acf1-62b11804fe5e" />
+
+
+
+
+
 ## 🌌 Visi Utama & Esensi Desain
 
 **OFFICIAL WEBSITE PRAMUKA AJM** Bukan sekadar pusat profil biasa. Sistem ini dirancang untuk memudahkan para pengurus ambalan AJM saat penerimaan anggota baru yang biasanya pada MPLS, selain itu web ini juga bisa sebagai media untuk menunjukan kegiatan yang kita lakukan kepada calon calon anggota baru.
