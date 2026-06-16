@@ -1,4 +1,3 @@
-<img width="1365" height="561" alt="webwilden_editstruktur" src="https://github.com/user-attachments/assets/fdeb16a3-54b3-4859-b88c-7010ceeb63c6" />
 # ⚜️ OFFICIAL WEBSITE PRAMUKA AJM SMKN 2 GARUT
 
 [![Pramuka Digital](https://img.shields.io/badge/Pramuka-Digital%20Platform-blue?style=for-the-badge&logo=pramuka&logoColor=white)](https://ai.studio/build)
@@ -15,6 +14,10 @@
 
 <img width="1365" height="561" alt="webwilden_editstruktur" src="https://github.com/user-attachments/assets/a92360fd-859f-41b2-97f1-4c31657b6797" />
 
+
+<img width="720" height="1600" alt="WhatsApp Image 2026-06-16 at 12 01 59" src="https://github.com/user-attachments/assets/02999c90-7ef4-47ef-b422-7a03694b6384" />
+<img width="720" height="1600" alt="WhatsApp Image 2026-06-16 at 12 02 00 (1)" src="https://github.com/user-attachments/assets/62a942ea-e215-4505-9ae9-ed27f34cf0cb" />
+<img width="720" height="1600" alt="WhatsApp Image 2026-06-16 at 12 02 00" src="https://github.com/user-attachments/assets/08f8a161-1c2d-409c-835b-471c750cd177" />
 
 
 
