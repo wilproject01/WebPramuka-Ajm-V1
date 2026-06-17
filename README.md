@@ -5,20 +5,22 @@
 [![Styled with Tailwind v4](https://img.shields.io/badge/Tailwind-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Database Firebase Firestore](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-<ctrl94> **TANDANG, JUANG, MEUNANG.** 
-> Sebuah platform digital interaktif masa kini sebagai media perwajahan yang dinamis bagi **Ambalan Ir. H. Juanda & Laksamana Malahayati SMKN 2 Garut**. Dirancang dengan memadukan nilai keluhuran gerakan Pramuka bersanding dengan akselerasi teknologi modern.
+<ctrl94> **OFFICIAL WEBSITE PRAMUKA AJM** 
+> Bukan sekadar pusat profil biasa. Sistem ini dirancang untuk memudahkan para pengurus ambalan AJM saat penerimaan anggota baru yang biasanya pada saat MPLS, selain itu web ini juga bisa sebagai media untuk menunjukan kegiatan yang kita lakukan kepada calon calon anggota baru.
 
 ---
 
-## 🌌 Visi Utama & Esensi Desain
+## PREVIEW TAMPILAN DESKTOP
+<img width="1360" height="612" alt="Screenshot_2026-06-17_22-23-42" src="https://github.com/user-attachments/assets/87c2740e-ee14-42f1-9abb-976533fc8645" />
+<img width="1366" height="612" alt="Screenshot_2026-06-17_22-24-28" src="https://github.com/user-attachments/assets/d5ae9103-74f5-42fa-98ec-cbb7da28ebe5" />
+ <img width="1365" height="561" alt="webwilden_editstruktur" src="https://github.com/user-attachments/assets/5a116245-2f3f-4e1a-ac38-6f6b5b1f3f5a" />
 
-**OFFICIAL WEBSITE PRAMUKA AJM** Bukan sekadar pusat profil biasa. Sistem ini dirancang untuk memudahkan para pengurus ambalan AJM saat penerimaan anggota baru yang biasanya pada MPLS, selain itu web ini juga bisa sebagai media untuk menunjukan kegiatan yang kita lakukan kepada calon calon anggota baru.
-**"Cosmic Deep Blue"** yang kokoh, tajam, dan elegan—merefleksikan keteguhan perjuangan, persaudaraan tanpa batas di alam semesta, serta disiplin tinggi gerakan Pramuka. 
+ ---
 
-Setiap detail dibalut dengan visual modern:
-*   **Aesthetic Typography**: Memadukan font display kontemporer dan sistem spasi yang lega guna menghadirkan kenyamanan baca maksimal (*readability score* tinggi).
-*   **Fluid Motion Elements**: Interaksi transisi navigasi yang responsif bertenaga `motion` untuk melahirkan sentuhan hidup di setiap ketukan pengguna.
-*   **Bento-Grid Architecture**: Eksplorasi visual modern untuk mengemas aneka ragam pengurus pengurus struktural ambalan.
+## PREVIEW TAMPILAN ANDROID
+<img width="1080" height="2066" alt="WhatsApp Image 2026-06-17 at 22 30 02" src="https://github.com/user-attachments/assets/0e8a10c2-ac26-4c38-861c-38f21e3a9e3a" />
+<img width="1080" height="2059" alt="WhatsApp Image 2026-06-17 at 22 29 56" src="https://github.com/user-attachments/assets/1476f7e7-5baa-4b12-a0d7-666d683ec6a0" />
+<img width="1080" height="2063" alt="WhatsApp Image 2026-06-17 at 22 30 47" src="https://github.com/user-attachments/assets/b434faf4-c876-4a1a-82bc-6fa7915d0c44" />
 
 ---
 
@@ -26,14 +28,12 @@ Setiap detail dibalut dengan visual modern:
 
 ### 1. 🏡 Beranda & Galeri Dinamis 
 *   Sebuah panel penyambut yang megah yang dilengkapi dengan sajian kolase foto bertumpuk (*collage stacked presentation*) yang interaktif.
-*   Slider kegiatan terintegrasi yang senantiasa bergerak dinamis menampilkan memori petualangan pramuka paling segar.
 
 ### 2. 📝 Pendaftaran Online Real-Time
 *   Formulir pendaftaran calon anggota baru yang bersih (*clean UI*) terintegrasi langsung ke database Firebase dan juga SpreadSheet yang memudahkan penyalinan data.
 *   Validasi tingkat tinggi memastikan data registrasi yang dikirimkan terjaga kepresisian dan strukturnya.
 
 ### 3. 📸 Galeri Dokumentasi Tanpa Batas (*Dokumentasi Kegiatan*)
-*   Halaman galeri album foto lengkap dengan pencarian interaktif instan bertenaga pencocokan filter karakter kilat.
 *   Setiap foto dilengkapi visual detail seperti tanggal, deskripsi momen berharga, serta fitur tampilan interaktif dalam modal detail *lightbox carousel*.
 
 ### 4. 🎛️ Dashboard Admin Super Power (*The Command Center*)
@@ -107,16 +107,6 @@ Ikuti petunjuk di bawah ini untuk menjalankan repositori di mesin lokal Anda.
     ```bash
     npm run start
     ```
-
----
-
-## 💡 Inovasi Hebat di Balik Layar
-
-### ⚡ Kompresi Gambar Berkinerja Tinggi (*Canvas Native Compression*)
-Kami menyematkan mesin pembaca gambar klien memanfaatkan kombinasi `FileReader` dan penggambaran ulang pada `HTML5 Canvas` secara adaptif sebelum konversi Base64 dilakukan. Hasilnya? Gambar besar berukuran megabyte dapat dikompresi menjadi puluhan kilobyte saja dalam pecahan milidetik tanpa membebani server/cloud API berbayar.
-
-### 🔄 Sinkronisasi Sinkron Real-time (*Reactive Firebase Hook*)
-Halaman **Dokumentasi Kegiatan** dan **Beranda** tidak memerlukan penyegaran ulang (*refresh*) browser untuk mendapatkan update dari Admin Dashboard. Berkat pemanfaatan listener kueri reaktif `onSnapshot` Firebase, perubahan apa pun yang disimpan oleh admin akan langsung mengalir ke UI semua pengunjung secara instan dan dramatis!
 
 ---
 
