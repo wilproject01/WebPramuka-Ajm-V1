@@ -80,7 +80,7 @@ export function LoadingScreen() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-2xl font-bold tracking-tight text-white font-display"
           >
-            GERAKAN PRAMUKA AJM
+            GERAKAN PRAMUKA SMKN 2 GARUT
           </motion.h2>
           <motion.div
             initial={{ scaleX: 0 }}
@@ -94,7 +94,7 @@ export function LoadingScreen() {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-xs uppercase tracking-[0.3em] font-medium text-white"
           >
-            Mempersiapkan Pemimpin Masa Depan
+            PRAMUKA AJM
           </motion.p>
         </div>
 

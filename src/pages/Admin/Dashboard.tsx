@@ -247,6 +247,22 @@ export function AdminDashboard() {
       handleFirestoreError(error, OperationType.GET, "settings/google_sheets");
     });
 
+    const unsubActivities = onSnapshot(doc(db, "content", "activities"), (snapshot) => {
+      if (snapshot.exists()) {
+        const data = snapshot.data();
+        if (Array.isArray(data.items)) {
+          setWebActivities(data.items);
+        }
+        setDokumentasiHeader({
+          title: data.headerTitle || "Dokumentasi Kegiatan Ambalan",
+          desc: data.headerDesc || "Dokumentasi nyata jejak petualangan, pengabdian, latihan rutin, serta momen seru Ambalan Ir. H. Juanda & Laksamana Malahayati SMKN 2 Garut."
+        });
+      }
+    }, (error) => {
+      console.error("Snap error activities mount listener:", error);
+      handleFirestoreError(error, OperationType.GET, "content/activities");
+    });
+
     // Run silent automatic migration for division names
     const runDivisionsMigration = async () => {
       try {
@@ -279,6 +295,7 @@ export function AdminDashboard() {
     return () => {
       unsubBrand();
       unsubSettings();
+      unsubActivities();
     };
   }, []);
 
@@ -312,19 +329,6 @@ export function AdminDashboard() {
         }
       });
 
-      const unsubActivities = onSnapshot(doc(db, "content", "activities"), (snapshot) => {
-        if (snapshot.exists()) {
-          const data = snapshot.data();
-          if (Array.isArray(data.items)) {
-            setWebActivities(data.items);
-          }
-          setDokumentasiHeader({
-            title: data.headerTitle || "Dokumentasi Kegiatan Ambalan",
-            desc: data.headerDesc || "Dokumentasi nyata jejak petualangan, pengabdian, latihan rutin, serta momen seru Ambalan Ir. H. Juanda & Laksamana Malahayati SMKN 2 Garut."
-          });
-        }
-      });
-
       const unsubStats = onSnapshot(doc(db, "content", "stats"), (snapshot) => {
         if (snapshot.exists()) {
           const data = snapshot.data();
@@ -349,7 +353,6 @@ export function AdminDashboard() {
         unsubDiv();
         unsubMemStruc();
         unsubHero();
-        unsubActivities();
         unsubStats();
         unsubFooter();
       };
@@ -992,7 +995,7 @@ export function AdminDashboard() {
           </div>
         </header>
 
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           <div className="glass-card p-6 md:p-8">
             <p className="text-white/30 text-[10px] font-bold uppercase tracking-widest mb-2">Total Anggota</p>
             <p className="text-3xl md:text-4xl font-bold text-white">{members.length}</p>
@@ -1004,13 +1007,8 @@ export function AdminDashboard() {
             <div className="mt-3 text-[10px] font-bold text-amber-500 uppercase tracking-widest">PERLU VERIFIKASI</div>
           </div>
           <div className="glass-card p-6 md:p-8">
-            <p className="text-white/30 text-[10px] font-bold uppercase tracking-widest mb-2">Jumlah Divisi</p>
-            <p className="text-3xl md:text-4xl font-bold text-blue-400">8</p>
-            <div className="mt-3 text-[10px] font-bold text-white/20 uppercase tracking-widest">AKTIF OPERASIONAL</div>
-          </div>
-          <div className="glass-card p-6 md:p-8">
             <p className="text-white/30 text-[10px] font-bold uppercase tracking-widest mb-2">Total Media</p>
-            <p className="text-3xl md:text-4xl font-bold text-white">156</p>
+            <p className="text-3xl md:text-4xl font-bold text-white">{activities.length}</p>
             <div className="mt-3 text-[10px] font-bold text-white/20 uppercase tracking-widest">FOTO & VIDEO</div>
           </div>
         </section>

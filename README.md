@@ -9,23 +9,16 @@
 > Sebuah platform digital interaktif masa kini sebagai media perwajahan yang dinamis bagi **Ambalan Ir. H. Juanda & Laksamana Malahayati SMKN 2 Garut**. Dirancang dengan memadukan nilai keluhuran gerakan Pramuka bersanding dengan akselerasi teknologi modern.
 
 ---
-# PREVIEW TAMPILAN DESKTOP
-<img width="1358" height="611" alt="Screenshot_2026-06-16_12-09-04" src="https://github.com/user-attachments/assets/ef20df4b-eb29-4922-acf1-62b11804fe5e" />
-<img width="1365" height="561" alt="webwilden_editstruktur" src="https://github.com/user-attachments/assets/a92360fd-859f-41b2-97f1-4c31657b6797" />
----
-
-# PREVIEW TAMPILAN ANDROID
-<img width="720" height="1600" alt="WhatsApp Image 2026-06-16 at 12 01 59" src="https://github.com/user-attachments/assets/02999c90-7ef4-47ef-b422-7a03694b6384" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-06-16 at 12 02 00" src="https://github.com/user-attachments/assets/08f8a161-1c2d-409c-835b-471c750cd177" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-06-16 at 12 02 00 (1)" src="https://github.com/user-attachments/assets/62a942ea-e215-4505-9ae9-ed27f34cf0cb" />
----
-
 
 ## 🌌 Visi Utama & Esensi Desain
 
 **OFFICIAL WEBSITE PRAMUKA AJM** Bukan sekadar pusat profil biasa. Sistem ini dirancang untuk memudahkan para pengurus ambalan AJM saat penerimaan anggota baru yang biasanya pada MPLS, selain itu web ini juga bisa sebagai media untuk menunjukan kegiatan yang kita lakukan kepada calon calon anggota baru.
 **"Cosmic Deep Blue"** yang kokoh, tajam, dan elegan—merefleksikan keteguhan perjuangan, persaudaraan tanpa batas di alam semesta, serta disiplin tinggi gerakan Pramuka. 
 
+Setiap detail dibalut dengan visual modern:
+*   **Aesthetic Typography**: Memadukan font display kontemporer dan sistem spasi yang lega guna menghadirkan kenyamanan baca maksimal (*readability score* tinggi).
+*   **Fluid Motion Elements**: Interaksi transisi navigasi yang responsif bertenaga `motion` untuk melahirkan sentuhan hidup di setiap ketukan pengguna.
+*   **Bento-Grid Architecture**: Eksplorasi visual modern untuk mengemas aneka ragam pengurus pengurus struktural ambalan.
 
 ---
 
