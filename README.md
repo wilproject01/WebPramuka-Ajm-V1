@@ -24,28 +24,27 @@
 
 ---
 
-## 🛠️ Fitur-Fitur Unggulan
+## Fitur-Fitur Unggulan
 
-### 1. 🏡 Beranda & Galeri Dinamis 
+### 1.Beranda & Galeri Dinamis 
 *   Sebuah panel penyambut yang megah yang dilengkapi dengan sajian kolase foto bertumpuk (*collage stacked presentation*) yang interaktif.
 
-### 2. 📝 Pendaftaran Online Real-Time
+### 2.Pendaftaran Online Real-Time
 *   Formulir pendaftaran calon anggota baru yang bersih (*clean UI*) terintegrasi langsung ke database Firebase dan juga SpreadSheet yang memudahkan penyalinan data.
 *   Validasi tingkat tinggi memastikan data registrasi yang dikirimkan terjaga kepresisian dan strukturnya.
 
-### 3. 📸 Galeri Dokumentasi Tanpa Batas (*Dokumentasi Kegiatan*)
+### 3.Galeri Dokumentasi Tanpa Batas (*Dokumentasi Kegiatan*)
 *   Setiap foto dilengkapi visual detail seperti tanggal, deskripsi momen berharga, serta fitur tampilan interaktif dalam modal detail *lightbox carousel*.
 
-### 4. 🎛️ Dashboard Admin Super Power (*The Command Center*)
+### 4.Dashboard Admin Super Power (*The Command Center*)
 Panel eksklusif untuk admin ambalan guna mengendalikan penuh isi konten situs:
 *   **Manajemen Kegiatan & Foto**: Menambah, memperbarui informasi judul, deskripsi kegiatan, tanggal, serta tautan gambar.
-*   **Fitur Pengompres Gambar Instan**: Unggah file gambar langsung dari perangkat Anda—sistem akan memproses dan mengompres ukuran gambar secara lokal di peramban memanfaatkan *Canvas rendering pipeline* sebelum disimpan untuk menghemat ruang kueri database.
-*   **Pengendali Keterangan Galeri**: Pembaruan judul header dan paragraf deskripsi halaman dokumentasi secara langsung dari dashboard tanpa menyentuh kode program.
-*   **Pemantau Pendaftaran**: List pendaftar masuk terdaftar secara saksama dalam format tabel interaktif dengan konfirmasi status pendaftaran.
+*   **Pengendali Keterangan Galeri**: Pembaruan judul header dan paragraf deskripsi halaman dokumentasi secara langsung dari dashboard admin.
+*   **Pemantau Pendaftaran**: List pendaftar masuk terdaftar secara realtime dalam format tabel interaktif dengan konfirmasi status pendaftaran.
 
 ---
 
-## 📐 Arsitektur & Teknologi
+## Arsitektur & Teknologi
 
 Sistem dibangun menggunakan paradigma fullstack modern dengan pemisahan fungsionalitas yang ideal:
 
@@ -58,7 +57,7 @@ Sistem dibangun menggunakan paradigma fullstack modern dengan pemisahan fungsion
 
 ---
 
-## 📁 Struktur Direktori
+## Struktur Direktori
 
 ```text
 ├── components/          # Komponen UI global (Navbar, Hero, Footer, dll.)
@@ -76,7 +75,7 @@ Sistem dibangun menggunakan paradigma fullstack modern dengan pemisahan fungsion
 
 ---
 
-## 🚀 Panduan Memulai & Pengembangan
+## Panduan Memulai & Pengembangan
 
 Ikuti petunjuk di bawah ini untuk menjalankan repositori di mesin lokal Anda.
 
@@ -110,7 +109,7 @@ Ikuti petunjuk di bawah ini untuk menjalankan repositori di mesin lokal Anda.
 
 ---
 
-## 🛡️ Hak Cipta & Lisensi
+## © Hak Cipta & Lisensi
 
 Aplikasi ini dibuat dan dikembangkan sepenuhnya oleh **Wilden Widya Is Nanda** selaku pengembang utama platform digital ini.
 
